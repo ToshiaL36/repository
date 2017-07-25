@@ -1,2 +1,1 @@
-# tutorialrepos
-all the tutorials
+# tutorial
