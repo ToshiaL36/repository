@@ -1,0 +1,29 @@
+<p style="text-transform: uppercase;">
+    Now this is crazy! 
+    <span style="text-transform: none; color: dodgerblue;">
+        Yay!
+    </span>
+    <span style="text-transform: capitalize;">
+        we love CSS!
+    </span>
+</p>
+<div style="text-indent: 15%;width: 300px;">
+</div>
+<div style="text-align: justify;width: 300px;">
+<div style="color:red;">
+    First Name is required     
+</div>
+<p>
+  This is 
+  <span style="text-decoration:underlined;">
+    underlined.
+  </span>
+  This is 
+  <span style="text-decoration:overlined;">
+    overlined. 
+  </span>
+  This is
+  <span style="text-decoration:line-through;">
+    line-through.
+  </span>
+</p>
