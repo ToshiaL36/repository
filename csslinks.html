@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="csslinks.css">
+    <title>Css Links</title>
+    <center>
+        <h1>Styling Links</h1>
+    </center>
+
+</head>
+
+<body>
+    <p>
+        With CSS, links can be styled in different ways. Links can be styled with any CSS property (e.g.
+        <font color="red">color,</font>
+        <font color="red">font,</font>
+        <font color="red">background,</font>etc).
+
+    </p>
+    <p>
+        In addition, links can be styled differently depending on what <strong>state</strong> they are in. the four links States are:
+    </p>
+    <ul list-style-type="disk">
+        <font color="red">
+            <dl>a: link- a normal, unvisited link</dl>
+            <dl>a link the user has visited</dl>
+            <dl>a: hover- a link when the user mouses over it</dl>
+            <dl>a: active- a link the moment it is clicked</dl>
+        </font>
+    </ul>
+    <p>
+        When setting the style for several link states, there are some order rules:</p>
+
+    <ol list-style-type="disk">
+        <dl>a: hover MUST come after a:link and a:visited</dl>
+        <dl>a: active must come after a:hover</dl>
+    </ol>
+    <h2>Text Decoration</h2>
+
+    <p> The
+        <font color="red">text decoration</font> property is mostly used to remove underlines from links:</p>
+
+    <h2>Background color</h2>
+    <p>
+        The
+        <font color="red">background color</font> property can be used to specify a background color for links:
+    </p>
+    <h2>Advanced - Link Buttons</h2>
+    <p>
+        This example demonstrates a more advanced example where we combine several CSS properties to display links as boxes/buttons:</p>
+    <a href="default.asp" target="_blank">This is a link</a>
+
+</body>
+
+</html>

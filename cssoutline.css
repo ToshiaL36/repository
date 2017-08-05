@@ -1,0 +1,46 @@
+body {
+    font: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    background-color: tan;
+}
+
+p.outline {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-color: green;
+    outline-width: 10px;
+}
+
+p.dotted {
+    outline-style: dotted;
+}
+
+P.dashed {
+    outline-style: dashed;
+}
+
+p.solid {
+    outline-style: solid;
+}
+
+p.double {
+    outline-style: double;
+}
+
+p.groove {
+    outline-style: groove;
+}
+
+p.ridge {
+    outline-style: ridge;
+}
+
+p.inset {
+    outline-style: inset;
+}
+
+p.outset {
+    outline-style: outset;
+}

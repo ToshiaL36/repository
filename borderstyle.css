@@ -19,43 +19,32 @@
   }
   
   p.paragraph {
-      color: blue;
-      padding: 20px 20px 20px 20px;
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-      margin-bottom: 0;
-      border-radius: 10px;
-      border-bottom-left-radius: 0px;
-      border-bottom-right-radius: 0px;
-      border-top-left-radius: 10px;
-      border-top-right-radius: 10px;
-      border-bottom-style: dotted;
-  }
-  
-  p.para3 {
-      color: blue;
-      font-size: 15px;
-      line-height: 1.5em;
-      background-color: #e5e4d7;
-      padding: 20px 20px 20px 20px;
-      border-color: black;
-      border-width: 2px;
-      border-style: double;
-      margin-bottom: 0;
-      background-image: url(c:/images/clouds.jpg);
-  }
-  
-  p.para4 {
       color: black;
       font-size: 15px;
       line-height: 1.5em;
       background-color: #e5e4d7;
       padding: 20px 20px 20px 20px;
-      border-color: black;
-      border-width: 2px;
-      border-style: dashed;
-      margin: 0;
+      border: black 2px solid;
+      background-image: url(images/clouds.jpg);
+      border-radius: 10px;
+      border-bottom-left-radius: 0px;
+      border-bottom-right-radius: 0px;
+      border-top-right-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  
+  #para4homepage {
+      color: black;
+      font-size: 15px;
+      line-height: 1.5em;
+      background-color: #e5e4d7;
+      padding: 20px 20px 20px 20px;
+      border-color: #296a64;
+      border-width: thick;
+      border-style: ridge;
+      margin: 20px;
+      margin-top: 50px;
+      margin-left: 400px;
   }
   
   p.para5 {
@@ -64,9 +53,8 @@
       line-height: 1.5em;
       background-color: #e5e4d7;
       padding: 20px 20px 20px 20px;
-      border-color: black;
-      border-width: 2px;
-      border-style: groove;
+      border-width: thick;
+      border-style: double;
       margin: 0;
   }
   
